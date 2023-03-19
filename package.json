@@ -1,0 +1,29 @@
+{
+  "name": "@blocktree/core",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "author": "Aron Stein",
+  "license": "MIT",
+  "homepage": "https://gitlab.linnovate.net/blocktree/core",
+  "bugs": "https://gitlab.linnovate.net/blocktree/core/issues",
+  "scripts": {
+    "eslint": "eslint --fix .eslintrc.cjs",
+    "test": "mocha './test/**/*.js'"
+  },
+  "keywords": [
+    "blocktree-core",
+    "blocktree",
+    "core"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.linnovate.net/blocktree/core.git"
+  },
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^10.2.0"
+  }
+}
